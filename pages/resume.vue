@@ -1,9 +1,8 @@
 <template>
   <div class="container">
     <div>
-      <logo />
       <h1 class="title">
-        Hi, I'm Chris.
+        Resume
       </h1>
       <h2 class="subtitle">
         Step into my portfolio...
@@ -14,16 +13,6 @@
     </div>
   </div>
 </template>
-
-<script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
-</script>
 
 <style>
 
