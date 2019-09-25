@@ -6,10 +6,11 @@
         Hi, I'm Chris.
       </h1>
       <h2 class="subtitle">
-        Step into my portfolio...
+        I'm a Web Developer.
       </h2>
       <div class="links">
-        <nuxt-link to="resume" class="button--green">Click Here</nuxt-link>
+        <nuxt-link to="portfolio" class="button--green">View My Work</nuxt-link>
+        <nuxt-link to="contact" class="button--green">Let's Talk</nuxt-link>
       </div>
     </div>
   </div>
