@@ -1,9 +1,7 @@
 <template>
   <header>
-    <nuxt-link to="/" class="logo">CL</nuxt-link>
     <nav>
       <div class="nav-link-holder">
-          <div class="nav-link"><nuxt-link to="/">Home</nuxt-link></div>
           <div class="nav-link"><nuxt-link to="resume">Resume</nuxt-link></div>
           <div class="nav-link"><nuxt-link to="portfolio">Portfolio</nuxt-link></div>
           <div class="nav-link"><nuxt-link to="contact">Contact</nuxt-link></div>
@@ -44,5 +42,11 @@ export default {
       padding: 1em 2em;
       display: inline-block;
       background: rgba(0,0,0,0.1);
+  }
+  @media only screen and (max-width: 480px) {
+    .nav-link a {
+        width: 20vw;
+        padding: 1em 0em;
+    }
   }
 </style>
