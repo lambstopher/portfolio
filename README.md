@@ -1,8 +1,8 @@
 # lamb-portfolio
 
-> Chris Lamb Web Development Portfolio
+> Chris Lamb - Web Development Portfolio
 
-## Build Setup
+## Build
 
 ``` bash
 # install dependencies

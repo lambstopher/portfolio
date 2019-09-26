@@ -36,6 +36,7 @@ export default {
         border: 1px solid #8a8a8a;
     }
     .contact-input input:focus, textarea:focus {
+        outline: none;
         border: 1px solid #41b883;
     }
 </style>
