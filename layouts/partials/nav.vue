@@ -1,10 +1,11 @@
 <template>
   <header>
+    <nuxt-link to="/" class="logo">CL</nuxt-link>
     <nav>
       <div class="nav-link-holder">
-          <div class="nav-link"><nuxt-link to="resume">Resume</nuxt-link></div>
-          <div class="nav-link"><nuxt-link to="portfolio">Portfolio</nuxt-link></div>
-          <div class="nav-link"><nuxt-link to="contact">Contact</nuxt-link></div>
+          <div class="nav-link"><nuxt-link to="/resume">Resume</nuxt-link></div>
+          <div class="nav-link"><nuxt-link to="/portfolio">Portfolio</nuxt-link></div>
+          <div class="nav-link"><nuxt-link to="/contact">Contact</nuxt-link></div>
       </div>
     </nav>
   </header>
@@ -44,9 +45,27 @@ export default {
       background: rgba(0,0,0,0.1);
   }
   @media only screen and (max-width: 480px) {
+    header {
+      display: contents;
+    }
+    .logo {
+      width: 20vw;
+      background: #000;
+    }
+    nav {
+      justify-self: center;
+      position: fixed;
+      bottom: 0px;
+      width: 100%;
+      background: #000;
+    }
+    .nav-link {
+      padding: 0rem 0rem;
+    }
     .nav-link a {
-        width: 20vw;
-        padding: 1em 0em;
+        width: 32vw;
+        padding: 1em 0em 1em 0em;
+        text-align: center;
     }
   }
 </style>
