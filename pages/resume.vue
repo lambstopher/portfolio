@@ -56,6 +56,7 @@
   .exp-date {
     font-style: italic;
     margin-bottom: .5rem;
+    text-transform: uppercase
   }
   .exp-desc {
     text-decoration: none;
