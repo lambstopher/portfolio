@@ -28,6 +28,15 @@
   padding-top: 15px;
 }
 
+.button--green {
+  border-radius: 0px;
+  background-color: #fff;
+}
+
+.button--green:hover {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 480px) {
   .container {
     padding-bottom: 20vw;

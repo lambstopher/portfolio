@@ -17,7 +17,7 @@
           <img class="project-image" src="../assets/images/whirlpool-logo.jpg" />
           <div class="project-details">
             <div class="project-title">Whirlpool</div>
-            <p>Lorum Ipsum text text text text</p>
+            <p>Worked cross-functionally with marketing/IT teams to assist in the development, authoring and ongoing support of the whirlpool.com website.</p>
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@
           <img class="project-image" src="../assets/images/maytag-logo.jpg" />
           <div class="project-details">
             <div class="project-title">Maytag</div>
-            <p>Lorum Ipsum text text text text</p>
+            <p>Worked cross-functionally with marketing/IT teams to assist in the development, authoring and ongoing support of the maytag.com website.</p>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@
           <img class="project-image" src="../assets/images/kitchenaid-logo.jpg" />
           <div class="project-details">
             <div class="project-title">KitchenAid</div>
-            <p>Lorum Ipsum text text text text</p>
+            <p>Worked cross-functionally with marketing/IT teams to assist in the development, authoring and ongoing support of the kitchenaid.com website.</p>
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@
           <img class="project-image" src="../assets/images/jennair-logo.jpg" />
           <div class="project-details">
             <div class="project-title">Jenn-Air</div>
-            <p>Lorum Ipsum text text text text</p>
+            <p>Worked cross-functionally with marketing/IT teams to assist in the development, authoring and ongoing support of the jennair.com website.</p>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@
           <img class="project-image" src="../assets/images/gladiator-logo.jpg" />
           <div class="project-details">
             <div class="project-title">Gladiator Garage Works</div>
-            <p>Lorum Ipsum text text text text</p>
+            <p>Worked cross-functionally with marketing/IT teams to assist in the development, authoring and ongoing support of the gladiatorgarageworks.com website.</p>
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@
           <img class="project-image" src="../assets/images/amana-logo.jpg" />
           <div class="project-details">
             <div class="project-title">Amana</div>
-            <p>Lorum Ipsum text text text text</p>
+            <p>Worked cross-functionally with marketing/IT teams to assist in the development, authoring and ongoing support of the amana.com website.</p>
           </div>
         </div>
       </div>
@@ -71,16 +71,16 @@
           <img class="project-image" src="../assets/images/aem-logo.jpg" />
           <div class="project-details">
             <div class="project-title">Adobe Experience Manager</div>
-            <p>Lorum Ipsum text text text text</p>
+            <p>Assisted in multiple re-platforming projects to the AEM platform. Proficient in <b>authoring</b> and <b>front-end AEM development</b>. Worked extensively with <b>AEM DAM</b> in an asset migration project.</p>
           </div>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="project-holder">
-          <img class="project-image" src="../assets/images/aem-logo.jpg" />
+          <img class="project-image" src="../assets/images/nuxtjs-logo.jpg" />
           <div class="project-details">
-            <div class="project-title">Adobe DAM</div>
-            <p>Lorum Ipsum text text text text</p>
+            <div class="project-title">NuxtJS</div>
+            <p>Worked with static site generator <b>NuxtJS</b> and <b>Vue</b> to create light weight web applications. Deployed applications through <b>Netlify</b>. This portfolio is an example of one of these projects.</p>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@
           <img class="project-image" src="../assets/images/target-logo.jpg" />
           <div class="project-details">
             <div class="project-title">Adobe Target</div>
-            <p>Lorum Ipsum text text text text</p>
+            <p>Have deployed dozens of <b>A/B</b> and <b>experience targed</b> tests using AT. Created clean/reusable code that effectively manipulates the DOM while not impacting performance.</p>
           </div>
         </div>
       </div>
@@ -100,8 +100,10 @@
 
 <script>
 export default {
-  components: {
-
+  head () {
+    return {
+      title: 'Portfolio | Chris Lamb - Web Developer'
+    }
   }
 }
 </script>
@@ -127,14 +129,14 @@ export default {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #41b883;
+    background-color: #afe8cf;
   }
   .project-holder:hover .project-details {
     opacity: 1;
   }
   .project-title {
     font-weight: bold;
-    color: #fff;
+    color: #000;
     padding: 10px;
     font-size: 1.3rem;
   }
@@ -144,6 +146,8 @@ export default {
     height: auto;
   }
   .project-details p {
-    color: #fff;
+    color: #000;
+    padding: 0 1rem;
+    text-align: left;
   }
 </style>
