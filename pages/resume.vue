@@ -45,6 +45,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  head () {
+    return {
+      title: 'Resume | Chris Lamb - Web Developer'
+    }
+  }
+}
+</script>
+
 <style>
   .subtitle {
     margin-top: 3rem;
