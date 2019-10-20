@@ -58,6 +58,7 @@ export default {
       bottom: 0px;
       width: 100%;
       background: #000;
+      z-index: 99999;
     }
     .nav-link {
       padding: 0rem 0rem;
