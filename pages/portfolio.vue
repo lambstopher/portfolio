@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-lg-4 col-md-6">
         <div class="project-holder">
           <img class="project-image" src="../assets/images/whirlpool-logo.jpg" />
           <div class="project-details">
@@ -21,7 +21,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-4 col-md-6">
         <div class="project-holder">
           <img class="project-image" src="../assets/images/maytag-logo.jpg" />
           <div class="project-details">
@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-4 col-md-6">
         <div class="project-holder">
           <img class="project-image" src="../assets/images/kitchenaid-logo.jpg" />
           <div class="project-details">
@@ -39,7 +39,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-4 col-md-6">
         <div class="project-holder">
           <img class="project-image" src="../assets/images/jennair-logo.jpg" />
           <div class="project-details">
@@ -48,7 +48,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-4 col-md-6">
         <div class="project-holder">
           <img class="project-image" src="../assets/images/gladiator-logo.jpg" />
           <div class="project-details">
@@ -57,7 +57,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-4 col-md-6">
         <div class="project-holder">
           <img class="project-image" src="../assets/images/amana-logo.jpg" />
           <div class="project-details">
@@ -66,7 +66,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-4 col-md-6">
         <div class="project-holder">
           <img class="project-image" src="../assets/images/aem-logo.jpg" />
           <div class="project-details">
@@ -75,7 +75,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-4 col-md-6">
         <div class="project-holder">
           <img class="project-image" src="../assets/images/nuxtjs-logo.jpg" />
           <div class="project-details">
@@ -84,7 +84,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-4 col-md-6">
         <div class="project-holder">
           <img class="project-image" src="../assets/images/target-logo.jpg" />
           <div class="project-details">
